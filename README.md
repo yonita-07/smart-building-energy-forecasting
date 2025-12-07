@@ -13,17 +13,17 @@ This project analyzes how outdoor weather (temperature, humidity) relates to app
     
 ## Project Structure
 
- * [Data](smart-building-energy-forecasting/Data)
-   * [energydata_complete.csv](smart-building-energy-forecasting/Data/energydata_complete.csv)
- * [sql](smart-building-energy-forecasting/sql)
-   * [smart_city.db](smart-building-energy-forecasting/sql/smart_city.db)
+ * [Data](Data)
+   * [energydata_complete.csv](Data/energydata_complete.csv)
+ * [sql](sql)
+   * [smart_city.db](sql/smart_city.db)
  * [notebooks](Smart_city_optimization.ipynb/notebooks)
    * [ Smart_city_optimization.ipynb](Smart_city_optimization.ipynb/notebooks/Smart_city_optimization.ipynb)
  * [notebooks](Project Documentation.ipynb/notebooks)
    * [Project Documentation.ipynb](Project Documentation.ipynb/notebooks/Project Documentation.ipynb)
- * [dashboard](smart-building-energy-forecasting/dashboard)
-   * [smart_city_resource_optimization.pbix](smart-building-energy-forecasting/dashboard/smart_city_resource_optimization.pbix)
-    * [README.md](Urban_mobility_analysis/README.md)
+ * [dashboard](dashboard)
+   * [smart_city_resource_optimization.pbix](dashboard/smart_city_resource_optimization.pbix)
+    * [README.md](README.md)
 
 
 ## Data
