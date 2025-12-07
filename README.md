@@ -12,7 +12,7 @@ This project analyzes how outdoor weather (temperature, humidity) relates to app
   - Optimization should focus on **occupancy patterns, device scheduling, and behavior**, not just temperature.
     
 ## Project Structure
-
+main/
  * [Data](smart-building-energy-forecasting/Data)
    * [energydata_complete.csv](smart-building-energy-forecasting/Data/energydata_complete.csv)
  * [sql](smart-building-energy-forecasting/sql)
