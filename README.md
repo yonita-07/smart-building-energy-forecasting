@@ -13,7 +13,6 @@ This project analyzes how outdoor weather (temperature, humidity) relates to app
     
 ## Project Structure
 
-smart-building-energy-forecasting/
  * [Data](smart-building-energy-forecasting/Data)
    * [energydata_complete.csv](smart-building-energy-forecasting/Data/energydata_complete.csv)
  * [sql](smart-building-energy-forecasting/sql)
