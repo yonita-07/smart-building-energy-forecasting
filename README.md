@@ -26,11 +26,21 @@ This project analyzes how outdoor weather (temperature, humidity) relates to app
 
 
 ## Data
-Source: UCI Machine Learning Repository
-Dataset: Appliances Energy Prediction Data Set
-10‑minute resolution measurements from a residential building
-Variables used:
-date – timestamp
-Appliances – appliance energy usage (Wh)
-T_out – outside temperature (°C)
-RH_out – outside humidity (%)      
+- **Source:** UCI Machine Learning Repository
+- **Dataset:** Appliances Energy Prediction Dataset
+    - 10‑minute resolution measurements from a residential building
+    - Variables used:
+      - date – timestamp
+      - Appliances – appliance energy usage (Wh)
+      - T_out – outside temperature (°C)
+      - RH_out – outside humidity (%)
+
+## Logical Data Model
+To demonstrate SQL + multi-table modeling, the CSV is split into:
+1. energy_consumption
+   - date, appliances_energy(from Appliances), optional internal temps
+2. weather
+   - date, T_out, RH_out, Press_mm_hg, Windspeed
+
+Joined on date and stored in SQLite: db/smart_city.db
+
