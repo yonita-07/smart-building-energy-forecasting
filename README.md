@@ -22,6 +22,7 @@ This project analyzes how outdoor weather (temperature, humidity) relates to app
    * [Project_Documentation.ipynb](notebooks/Project_Documentation.ipynb)
  * [dashboard](dashboard)
    * [smart_city_resource_dashboard.pbix](dashboard/smart_city_resource_dashboard.pbix)
+   * [smart_city_resource_dashboard.jpg](dashboard/smart_city_resource_dashboard.jpg)
  * [README.md](README.md)
 
 ## Technical Skills Demonstrated
